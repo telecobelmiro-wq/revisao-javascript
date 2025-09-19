@@ -15,9 +15,20 @@ const pessoa = {
         nomeEmpresa: "senac rs",
         modalidade: "presencial",
         area: "informática"
-      }
+      },
+
+      pets: [
+      "cachorro",
+      "gato",
+      "passaro"
+      ]
 }
-  
+    
+pessoa.pets.map(pet => {
+    console.log(`pet ${pet}`)
+})
+
+ 
 console.log(`objeto pessoa ${pessoa}`)
 console.log(`o nome das pessoa é ${pessoa.nome}`)
 console.log(`a idade da pessoa ${pessoa.idade}`)
